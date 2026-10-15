@@ -1,0 +1,14 @@
+.fixation-point {
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    border: 6px solid black;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.dot-detect {
+    border: 6px solid red;
+    background-color: black;
+}

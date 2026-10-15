@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SaccadeJS demos</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 44em; margin: 3em auto; padding: 0 1em;
+             line-height: 1.5; color: #222; }
+      h1 { margin-bottom: 0.2em; }
+      .lede { color: #555; margin-top: 0; }
+      .demo { border: 1px solid #ddd; border-radius: 6px; padding: 1em 1.2em; margin: 1.2em 0; }
+      .demo h2 { margin: 0 0 0.3em; font-size: 1.2em; }
+      .demo p { margin: 0.4em 0; }
+      .links a { margin-right: 1.2em; }
+      small { color: #666; }
+    </style>
+  </head>
+  <body>
+    <h1>SaccadeJS demos</h1>
+    <p class="lede">The three experiments behind the SaccadeJS paper, as participants ran them.
+      <strong>None of them saves or sends any data.</strong> They need a webcam, a keyboard and a
+      desktop browser (Chrome, Edge or Firefox).</p>
+
+    <div class="demo">
+      <h2>Training data collection</h2>
+      <p>The task that recorded the training set (June 2023 to April 2024): 144 targets on a
+        16 × 9 grid, with a short webcam clip at each one and an occasional color change to
+        catch with the spacebar. About 10 minutes.</p>
+      <p class="links"><a href="training/">Full task</a> <a href="training/?short">Short version</a></p>
+    </div>
+
+    <div class="demo">
+      <h2>Held-out data collection</h2>
+      <p>The same task run twice over, 288 targets, which recorded the held-out evaluation set
+        (December 2024 and March 2025). About 15 minutes.</p>
+      <p class="links"><a href="held-out/">Full task</a> <a href="held-out/?short">Short version</a></p>
+    </div>
+
+    <div class="demo">
+      <h2>Validation study</h2>
+      <p>The study that compared SaccadeJS with WebGazer (September 2026, version 1.4.1). It
+        downloads the SaccadeJS model (about 20 MB) and runs it in your browser, then records
+        what each tracker would need to predict gaze while you follow targets. About 10 minutes.</p>
+      <p class="links"><a href="validation/">Validation study</a></p>
+    </div>
+
+    <p><small>Source and the changes made for the demos:
+      <a href="https://github.com/jspsych/saccadejs-demos">github.com/jspsych/saccadejs-demos</a>.</small></p>
+  </body>
+</html>
